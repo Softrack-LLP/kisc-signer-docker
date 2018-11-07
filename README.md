@@ -39,7 +39,7 @@ services:
     kisc-sign:
         image: test:latest
         volumes:
-             - /home/mark/projects/allpay/kisc-signer-docker/extra:/allpay/KiscSigner/extra
+             - /path/to/extra:/allpay/KiscSigner/extra
         ports:
             - 5001:5001
 ```
