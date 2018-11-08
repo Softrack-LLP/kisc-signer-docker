@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Softrack-LLP/kisc-signer.svg?branch=master)](https://travis-ci.org/Softrack-LLP/kisc-signer)
+
 ### About the image
 
 Docker image for easier tumar setup
