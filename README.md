@@ -16,7 +16,7 @@ inst/tumar/TumarCSP_5.2_linux64.tgz
 
 These files are provided provided by [kisc](https://ca.kisc.kz/webra/res-open/tumar_others.htm)
 
-### Usage
+### Usage(local build)
 
 1. To build image run:
 
@@ -84,7 +84,11 @@ http://localhost:5001/KiscSignManager/sign
 
 ```
 
-6. test logs:
+### Usage(dockerhub image)
+
+The same as local build but you can skip the first step and use image softrackkz/kisc-signer-docker instead
+
+### Troubleshooting
 
 ```bash
 docker exec -it $(docker ps | grep test:latest | awk '{print $1}') /bin/bash
